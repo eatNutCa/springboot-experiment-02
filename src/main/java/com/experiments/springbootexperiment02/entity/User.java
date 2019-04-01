@@ -20,7 +20,8 @@ public class User {
     @Column(columnDefinition = "TIMESTAMP NOT NULL DEFAULT CURRENT_TIMESTAMP",
             insertable = false,
             updatable = false)
-    private LocalDateTime insert_time;
+    private LocalDateTime inserttime;
 
     public User(String name){this.name=name;}
+    public User(){};
 }

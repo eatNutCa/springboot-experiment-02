@@ -63,6 +63,7 @@ public class UserRepository {
      */
     public Address updateAddress(int aid, int uid) {
         /*
+        *merge方法
         Address address1=new Address();
         address1.setId(aid);
         Address address2=em.merge(address1);
