@@ -32,4 +32,5 @@ public class SpringbootExperiment02ApplicationTests {
         userRepository.removeAddress(2);
         userRepository.removeUser(2);
     }
+    
 }
